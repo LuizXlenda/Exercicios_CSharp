@@ -3,8 +3,7 @@
 class Program
 {
     
-    static bool VerificaMaiuscula(string texto)
-    {
+    static bool VerificaMaiuscula(string texto){
         foreach (char c in texto)
         {
             if (char.IsUpper(c))
@@ -13,8 +12,7 @@ class Program
         return false;
     }
 
-    static bool VerificaNumero(string texto)
-    {
+    static bool VerificaNumero(string texto){
         foreach (char c in texto)
         {
             if (char.IsDigit(c))
