@@ -21,8 +21,7 @@ class Program
         return false;
     }
 
-    static bool VerificaCharEspecial(string texto)
-    {
+    static bool VerificaCharEspecial(string texto){
         foreach (char c in texto)
         {
             if (!char.IsLetterOrDigit(c))
